@@ -3,7 +3,7 @@ package com.idmc.projetbiblio;
 import com.idmc.projetbiblio.backoffice.exemplaireoeuvres.Exemplaire;
 
 public class IHMBackoffice {
-    private Gestion gestion;
+    private final Gestion gestion;
     public IHMBackoffice() {
         this.gestion = new Gestion();
     }
@@ -18,5 +18,13 @@ public class IHMBackoffice {
 
     public void rendre(Exemplaire exemplaire){
         gestion.rendre(exemplaire);
+    }
+
+    public void ajouterClient(String nom){
+
+    }
+
+    public void modifierClient(){
+
     }
 }
