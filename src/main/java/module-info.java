@@ -6,6 +6,7 @@ module com.idmc.projetbiblio {
     requires org.controlsfx.controls;
     requires com.dlsc.formsfx;
     requires eu.hansolo.tilesfx;
+    requires com.idmc.projetbiblio;
 
     opens com.idmc.projetbiblio to javafx.fxml;
     exports com.idmc.projetbiblio;
