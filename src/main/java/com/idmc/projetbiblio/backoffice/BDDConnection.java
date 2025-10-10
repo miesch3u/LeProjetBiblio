@@ -20,7 +20,7 @@ public class BDDConnection {
         try {
             Class.forName("org.postgresql.Driver");
         } catch (ClassNotFoundException e) {
-            System.out.println("Driver PostgreSQL non trouvÃ© !");
+            System.out.println("Driver PostgreSQL non trouvé !");
             throw new SQLException(e);
         }
         // Connexion

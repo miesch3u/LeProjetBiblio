@@ -2,9 +2,9 @@ package com.idmc.projetbiblio;
 
 import com.idmc.projetbiblio.backoffice.exemplaireoeuvres.Exemplaire;
 
-public class IHMBackoffice {
+public class IHM {
     private final Gestion gestion;
-    public IHMBackoffice() {
+    public IHM() {
         this.gestion = new Gestion();
     }
 
