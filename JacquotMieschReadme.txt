@@ -22,7 +22,7 @@ Lancer le projet :
             - Java récent (nous utilisons le JDK 25, les versions antérieures peuvent ne pas lancer le projet).
         1. Lancer le container Docker qui lance la BDD PostgreSQL :
             -> docker
-        2. Lancer l'application Bibliothèque :
+        2. Lancer l'application Bibliothèque avec le JAR déjà disponible :
             -> java -jar JacquotMieschBibliothequeApp.jar
 
     A partir des sources et du fichier SQL /
