@@ -6,11 +6,11 @@ import java.sql.*;
  * Connexion à la base de données seulement
  */
 public class BDDConnection {
-    private static final String HOST = "plg-broker.ad.univ-lorraine.fr";
+    private static final String HOST = "localhost";
     private static final String PORT = "5432";
-    private static final String DB_NAME = "Bibliotheque_Jacquot_Miesch";
-    private static final String user = "m1user1_18";
-    private static final String password = "m1user1_18";
+    private static final String DB_NAME = "bibliotheque";
+    private static final String user = "admin";
+    private static final String password = "admin";
     private Connection con = null;
 
     public void connect() throws SQLException {
